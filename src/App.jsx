@@ -14,17 +14,22 @@ function App() {
 
       <section id='about' className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Hello, there!</h1>
-          <img className="picture" src='src/assets/linkedin.JPG' alt='LinkedIn Photo'/>
-          <p className="hero-subtitle">
-            Computer Science at USI •  President of ACM
-          </p>
-
+          <div className="hero-text">
+            <h1 className="hero-title">Hello, there!</h1>
+            <h3 className='hero-title'>My name is Angel Lopez</h3>
+            <p className="hero-description">
+              Transforming complex problems into elegant software solutions.
+            </p>
+            <p className="hero-description">Computer Science @ USI • President of ACM</p>
+          </div>
+          <div className="hero-image-wrapper">
+            <img src='src/assets/linkedin.JPG' className="hero-photo" alt='Angel Ortega-Lopez' />
+          </div>
         </div>
       </section>
 
       {/* Skills Section */}
-      <Skills/>
+      <Skills />
 
       {/* Projects Section */}
       <section id='projects' className="projects-section">
@@ -46,7 +51,7 @@ function App() {
         <h2 className='section-heading'>Experience</h2>
         <div className='grid'>
           {experience.map((exp) => (
-            <ProjectCard 
+            <ProjectCard
               key={exp.id}
               title={exp.title}
               tech={exp.tech}

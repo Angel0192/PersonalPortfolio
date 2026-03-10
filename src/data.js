@@ -54,13 +54,14 @@ export const experience = [
     {
         id: 1,
         title: "ProgresiveHealth Internship",
-        tech: "React • SQL • Github / Git",
+        tech: "Junior Application Developer (5 mos.)",
         description: "Description",
     },
 
     {
         id: 2,
         title: "NSWC Crane | NREIP Intern (AIMM Project)",
+        tech: "Embedded Systems and AI Engineer",
         description: "Tasked with improving the 'vision' of an autonomous maritime vessel, I implemented ROS 2 nodes to facilitate real-time sensor fusion. The highlight was developing a custom YOLO-based Machine Learning model for obstacle detection; through iterative hyperparameter tuning, I achieved an 80% confidence rating in high-glare, real-world water environments."
     }
 ]
