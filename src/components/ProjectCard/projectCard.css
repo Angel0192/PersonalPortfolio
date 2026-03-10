@@ -1,0 +1,53 @@
+.project-card {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card:hover{
+    transform: translateY(-8px);
+    border-color: rgba(96,165,250,0.5);
+    box-shadow: 0 15px   35px rgba(0, 0, 0, 0.4);
+}
+
+.tech-tag {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #60a5fa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    margin: 15px 0 10px 0;
+    color: white;
+}
+
+.card-description{
+    color: #e2ebf8;
+    font-size: 0.95rem;
+    line-height: 1.6;;
+}
+
+.view-project {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.view-project:hover{
+    color: #60a5fa
+}

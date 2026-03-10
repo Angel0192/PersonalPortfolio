@@ -5,10 +5,14 @@ const Navbar = () => {
   return (
     <nav className="navbar-container">
       <div className="navbar-glass">
-        <div className="logo">AAO</div>
+        {/* Logo */}
+        <div className="logo">AAOL</div>
+
+        {/* NavBar Links*/}
         <div className="links">
-          <a href="#projects">Projects</a>
           <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href='#experience'>Experience</a>
           <a href="#contact">Contact</a>
         </div>
       </div>
