@@ -1,3 +1,4 @@
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,46 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.hero-section {
+  height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(248, 113, 113, 0.15) 0%, transparent 70%);
+  filter: blur(60px);
+  z-index: -1; /* Puts it behind the text */
+}
+
+.hero-title {
+  font-size: clamp(2rem, 8vw, 5rem); /* Responsive font: small on phone, huge on MacBook */
+  font-weight: 800;
+  letter-spacing: -0.02em; /* Tighter letters look more modern */
+  margin-bottom: 10px;
+  background: linear-gradient(to bottom, #ffffff, #94a3b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* This creates a subtle metallic gradient */
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
 }
