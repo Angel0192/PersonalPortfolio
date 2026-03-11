@@ -1,5 +1,5 @@
 
-import './ProjectCard.css';
+import './projectCard.css';
 
 const ProjectCard = ({title, tech, description, link}) => {
     return (

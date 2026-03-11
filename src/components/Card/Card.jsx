@@ -1,4 +1,4 @@
-import './card.css'
+import './Card.css'
 
 const Card = ({title, description, role, timeline}) => {
     return (
@@ -8,7 +8,7 @@ const Card = ({title, description, role, timeline}) => {
 
                     <h3 className="tag">{timeline}</h3>
                     <h3 className="tag">{role}</h3>
-                    
+
                 <p className='card-description'>{description}</p>
                 
             </div>
