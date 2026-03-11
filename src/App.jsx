@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/navbar'
 import ProjectCard from './components/ProjectCard/projectCard';
 import Card from './components/Card/Card'
 import Skills from './components/Skills/skills';
+import linkedIn from './assets/linkedin.JPG'
 import { projectData, experience, otherEngagement } from "./data"
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
             </div>
           </div>
           <div className="hero-image-wrapper">
-            <img src='src/assets/linkedin.JPG' className="hero-photo" alt='Angel Ortega-Lopez' />
+            <img src={linkedIn} className="hero-photo" alt='Angel Ortega-Lopez' />
           </div>
         </div>
       </section>
