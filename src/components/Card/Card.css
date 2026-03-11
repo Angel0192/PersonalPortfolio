@@ -17,6 +17,21 @@
     box-shadow: 0 15px   35px rgba(0, 0, 0, 0.4);
 }
 
+.tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #2984f2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 
 .card-title{
     font-size: 1.5rem;

@@ -14,7 +14,7 @@ const ProjectCard = ({title, tech, description, link}) => {
                 <p className='card-description'>{description}</p>
                 
                 <div className='card-footer'>
-                    <a href={link} className='view-project'>View Project</a>
+                    <a href={link} target="_blank" rel="noopener noreferrer" className='view-project'>View Project</a>
                 </div>
             </div>
         </div>

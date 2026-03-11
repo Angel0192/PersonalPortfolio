@@ -1,11 +1,14 @@
+import './card.css'
 
-
-const Card = ({title, description}) => {
+const Card = ({title, description, role, timeline}) => {
     return (
         <div className='card'>
             <div className='card-content'>
-                <h3 className='card-title'>{title}</h3>
+                <h2 className='card-title'>{title}</h2>
 
+                    <h3 className="tag">{timeline}</h3>
+                    <h3 className="tag">{role}</h3>
+                    
                 <p className='card-description'>{description}</p>
                 
             </div>
