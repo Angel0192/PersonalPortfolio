@@ -1,17 +1,18 @@
 import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar/navbar'
-import ProjectCard from './components/ProjectCard/projectCard';
-import Card from './components/Card/Card'
-import Skills from './components/Skills/skills';
-import linkedIn from './assets/linkedin.JPG'
-import { projectData, experience, otherEngagement } from "./data"
+import './webView.css'
+import Navbar from '../components/Navbar/navbar'
+import ProjectCard from '../components/ProjectCard/projectCard';
+import Card from '../components/Card/Card'
+import Skills from '../components/Skills/skills';
+import linkedIn from '../assets/linkedin.JPG'
+import { projectData, experience, otherEngagement } from "../data.js"
 
-function App() {
+// TODO: Make this the Web View?
+
+function webView() {
   const socialLinks = [
     { label: "LinkedIn", link: "https://www.linkedin.com/in/angellopez-compsci/", icon: "🔗" },
     { label: "GitHub", link: "https://github.com/Angel0192", icon: "💻" },
-    { label: "Email", link: "mailto:angellope904@gmail.com", icon: "📧" }
   ];
   return (
     <div className="App">
@@ -23,7 +24,9 @@ function App() {
             <h1 className="hero-title">Hello, there!</h1>
             <h2 className="hero-name">My name is <br /> Angel Lopez</h2>
 
-            <div className='test'>
+            {/* Add Resume download button*/}
+
+            <div className='resumeH'>
               <p className="hero-description">
                 Transforming complex problems into elegant software solutions.
               </p>
@@ -35,6 +38,22 @@ function App() {
           <div className="hero-image-wrapper">
             <img src={linkedIn} className="hero-photo" alt='Angel Ortega-Lopez' />
           </div>
+        </div>
+      </section>
+
+      {/* Experience Section | Swap ProjectCard to Card*/}
+      <section id='experience'>
+        <h2 className='section-heading'>Experience</h2>
+        <div className='grid'>
+          {experience.map((exp) => (
+            <Card
+              key={exp.id}
+              title={exp.title}
+              role={exp.role}
+              description={exp.description}
+              timeline={exp.timeline}
+            />
+          ))}
         </div>
       </section>
 
@@ -57,21 +76,7 @@ function App() {
         </div>
       </section>
 
-      {/* Experience Section | Swap ProjectCard to Card*/}
-      <section id='experience'>
-        <h2 className='section-heading'>Experience</h2>
-        <div className='grid'>
-          {experience.map((exp) => (
-            <Card
-              key={exp.id}
-              title={exp.title}
-              role={exp.role}
-              description={exp.description}
-              timeline={exp.timeline}
-            />
-          ))}
-        </div>
-      </section>
+      
 
       {/* Campus Engagement Section*/}
       <section id='campusEngage'>
@@ -107,4 +112,4 @@ function App() {
   );
 }
 
-export default App;
+export default webView;
