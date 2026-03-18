@@ -1,13 +1,10 @@
-import { useState } from 'react'
 import './webView.css'
-import Navbar from '../components/Navbar/navbar'
-import ProjectCard from '../components/ProjectCard/projectCard';
-import Card from '../components/Card/Card'
-import Skills from '../components/Skills/skills';
-import linkedIn from '../assets/linkedin.JPG'
-import { projectData, experience, otherEngagement } from "../data.js"
-
-// TODO: Make this the Web View?
+import Navbar from '../../components/Navbar/navbar'
+import ProjectCard from '../../components/ProjectCard/projectCard';
+import Card from '../../components/Card/Card'
+import Skills from '../../components/Skills/skills';
+import linkedIn from '../../assets/linkedin.JPG'
+import { projectData, experience, otherEngagement } from "../../data.js"
 
 function webView() {
   const socialLinks = [
