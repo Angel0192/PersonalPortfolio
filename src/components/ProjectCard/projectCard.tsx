@@ -1,7 +1,14 @@
 
 import './projectCard.css';
 
-const ProjectCard = ({title, tech, description, link}) => {
+type ProjectCardProps = {
+    title: string
+    tech: string
+    description: string
+    link: string
+}
+
+const ProjectCard = ({title, tech, description, link} : ProjectCardProps) => {
     return (
         <div className='project-card'>
             <div className='card-content'>
@@ -13,9 +20,12 @@ const ProjectCard = ({title, tech, description, link}) => {
 
                 <p className='card-description'>{description}</p>
                 
-                <div className='card-footer'>
-                    <a href={link} target="_blank" rel="noopener noreferrer" className='view-project'>View Project</a>
-                </div>
+                {link && (
+                    <div className='card-footer'>
+                        <a href={link} target="_blank" rel="noopener noreferrer" className='view-project'>View Project</a>
+                    </div>
+                )}
+                
             </div>
         </div>
     )

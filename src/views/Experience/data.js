@@ -29,6 +29,20 @@ export const experience = [
         role: "Waiter / Assistant Manager",
         timeline: "4 Years",
         description: "Growing up in my families resturaunt, I was blessed with the opportunity to have many of my professional skills start developing here with handling customer service.",
-    }
+    },
+
+    {
+        id: 5,
+        title: "Common Grounds Podcast",
+        tags: "Audio Engineering • Riverside",
+        description: "Technical prodcution and audio editing for the podcast"
+    },
+
+    {
+        id: 6,
+        title: "New Beginnings Lakeside Church",
+        tags: "Audio/Visual • ProPresenter",
+        description: "At New Beginnings, I serve in the tech booth where I use the gifts to give back to the church."
+    },
     
 ]

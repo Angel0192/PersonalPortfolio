@@ -1,4 +1,4 @@
-
+import linkedIn from '../../assets/linkedin.JPG'
 
 export default function Hero(){
     return(
@@ -23,7 +23,7 @@ export default function Hero(){
             </div>
           </div>
           <div className="hero-image-wrapper">
-            <img src={'../../assets/linkedIn.JPG'} className="hero-photo" alt='Angel Ortega-Lopez' />
+            <img src={linkedIn} className="hero-photo" alt='Angel Ortega-Lopez' />
           </div>
         </div>
       </section>

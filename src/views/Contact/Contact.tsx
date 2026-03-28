@@ -1,3 +1,4 @@
+import {socialLinks} from './data'
 
 export default function Contact(){
     return (
