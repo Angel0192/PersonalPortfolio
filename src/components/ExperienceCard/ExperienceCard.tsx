@@ -1,6 +1,13 @@
-import './Card.css'
+import './ExperienceCard.css'
 
-const Card = ({title, description, role, timeline}) => {
+type ExperienceCardProps = {
+    title: string
+    description: string
+    role: string
+    timeline: string
+}
+
+const ExperienceCard = ({title, description, role, timeline}: ExperienceCardProps) => {
     return (
         <div className='card'>
             <div className='card-content'>
@@ -16,4 +23,4 @@ const Card = ({title, description, role, timeline}) => {
     )
 }
 
-export default Card
+export default ExperienceCard
