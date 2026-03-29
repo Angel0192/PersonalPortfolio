@@ -4,7 +4,7 @@ import { experience } from './data'
 
 export default function Experience() {
   return (
-    <section id='experience-container'>
+    <section id='experience'>
       <h2 className='section-heading'>Experience</h2>
       <div className='experience-grid'>
         {experience.map((exp) => (
