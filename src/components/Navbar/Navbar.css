@@ -1,3 +1,4 @@
+@import 'tailwindcss';
 
 .navbar-container {
     /* Fixed to Top */
@@ -7,7 +8,7 @@
 
     /* Width and Height */
     width: 100%;
-    height: 75px;
+    height: 90px;
 
     /* Center */
     display: flex;

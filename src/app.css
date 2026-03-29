@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@import 'tailwindcss';
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}

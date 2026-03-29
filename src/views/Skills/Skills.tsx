@@ -1,6 +1,7 @@
-import {skillCategories} from './data'
+import { skillCategories } from './data'
+import './Skills.css'
 
-export default function Skills(){
+export default function Skills() {
     return (
         <section id="skills" className="skills-section">
             <h2 className="section-heading">Technical Arsenal</h2>

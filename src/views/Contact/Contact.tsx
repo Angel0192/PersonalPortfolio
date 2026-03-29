@@ -1,4 +1,5 @@
 import {socialLinks} from './data'
+import './Contact.css'
 
 export default function Contact(){
     return (

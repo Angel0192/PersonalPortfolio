@@ -1,4 +1,5 @@
 import linkedIn from '../../assets/linkedin.JPG'
+import './Hero.css'
 
 export default function Hero(){
     return(
@@ -10,7 +11,7 @@ export default function Hero(){
 
             {/* Add Resume download button*/}
             <div>
-                <button onClick={ () => console.log("Downloading Resume")}>Download Resume</button>
+                <button onClick={ () => console.log("Downloading Resume")} className='btn'>Download Resume</button>
             </div>
 
             <div className='resumeH'>
