@@ -30,6 +30,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: #020617;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 h1 {
@@ -71,4 +73,5 @@ button:focus-visible {
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }

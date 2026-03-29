@@ -10,8 +10,7 @@ import { projectData, experience, otherEngagement } from "./data"
 function App() {
   const socialLinks = [
     { label: "LinkedIn", link: "https://www.linkedin.com/in/angellopez-compsci/", icon: "🔗" },
-    { label: "GitHub", link: "https://github.com/Angel0192", icon: "💻" },
-    { label: "Email", link: "mailto:angellope904@gmail.com", icon: "📧" }
+    { label: "GitHub", link: "https://github.com/Angel0192", icon: "💻" }
   ];
   return (
     <div className="App">
