@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 20px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -91,10 +91,22 @@
   }
 }
 
-button{
+.hero-btn-group button{
   background-color: blue;
   color: white;
   display: inline-flex;
   align-content: space-between;
 }
 
+.hero-btn-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.hero-btn{
+  background-color: blue;
+  color: white;
+  display: inline-flex;
+  align-content: space-between;
+}

@@ -68,13 +68,15 @@
 }
 
 .links a:hover {
-    color: #60a5fa; /* A bright, vibrant blue (Tailwind blue-400 equivalent) */
-    
-    /* Layer 1: Tight glow (15px) to make the letters look like neon tubes
-       Layer 2: Wide glow (40px) to create that 'lighting up the glass' effect
-    */
-    text-shadow: 0 0 15px rgba(96, 165, 250, 0.9), 
-                 0 0 40px rgba(96, 165, 250, 0.6);
-               
-    transform: translateY(-3px); /* Slightly more lift to match the bigger glow */
+    color: #60a5fa;
+    text-shadow: 0 0 15px rgba(96, 165, 250, 0.9),
+        0 0 40px rgba(96, 165, 250, 0.6);
+
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        display: none;
+    }
 }
