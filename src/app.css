@@ -1,6 +1,10 @@
 
 @import 'tailwindcss';
 
+* {
+  outline: 1px solid red;
+}
+
 main {
   display: flex;
   flex-direction: column;

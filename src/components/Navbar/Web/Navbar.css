@@ -24,9 +24,9 @@
 
 .navbar-glass {
     /* Width and Height */
-    width: 90%;
-    max-width: 1200px;
-    height: 45px;
+    width: 98%;
+    max-width: 1600px;
+    height: 75px;
 
     /* horizontal layout for Logo and Links */
     display: flex;
