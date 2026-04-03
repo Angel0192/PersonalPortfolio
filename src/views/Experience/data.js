@@ -34,14 +34,16 @@ export const experience = [
     {
         id: 5,
         title: "Common Grounds Podcast",
-        tags: "Audio Engineering • Riverside",
+        role: "Audio Engineering • Riverside",
+        timeline: "1 Month | Current",
         description: "Led technical production for a weekly podcast, handling audio engineering, editing, and post-production."
     },
 
     {
         id: 6,
         title: "New Beginnings Lakeside Church",
-        tags: "Audio/Visual • ProPresenter",
+        timeline: "1 Month | Current",
+        role: "Audio/Visual • ProPresenter",
         description: "Where technology meets purpose. I volunteer in the tech booth at New Beginnings Lakeside Church — proof that the best projects aren't always on a screen."
     },
     
