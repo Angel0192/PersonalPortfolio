@@ -28,16 +28,16 @@
     letter-spacing: 1px;
 }
 
-.card-title{
+.project-card-title{
     font-size: 1.5rem;
     margin: 15px 0 10px 0;
     color: white;
 }
 
-.card-description{
+.project-card-description{
     color: #e2ebf8;
     font-size: 0.95rem;
-    line-height: 1.6;;
+    line-height: 1.6;
 }
 
 .view-project {

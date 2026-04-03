@@ -1,11 +1,12 @@
 @import 'tailwindcss';
 
-.card {
+.experience-card {
     background: rgba(255,255,255,0.03);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
+    height: 100%;
     padding: 30px;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     display: flex;
@@ -13,10 +14,10 @@
     justify-content: space-between;
 }
 
-.card:hover{
+.experience-card:hover {
     transform: translateY(-8px);
     border-color: rgba(96,165,250,0.5);
-    box-shadow: 0 15px   35px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
 }
 
 .tag {
@@ -28,14 +29,14 @@
     letter-spacing: 1px;
 }
 
-.card-title{
+.experience-card-title {
     font-size: 1.5rem;
     margin: 15px 0 10px 0;
     color: white;
 }
 
-.card-description{
+.experience-card-description {
     color: #e2ebf8;
     font-size: 0.95rem;
-    line-height: 1.6;;
+    line-height: 1.6;
 }

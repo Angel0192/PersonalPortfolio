@@ -8,24 +8,20 @@ type ProjectCardProps = {
     link: string
 }
 
-const ProjectCard = ({title, tech, description, link} : ProjectCardProps) => {
+const ProjectCard = ({ title, tech, description, link }: ProjectCardProps) => {
     return (
         <div className='project-card'>
-            <div className='card-content'>
-                <h3 className='card-title'>{title}</h3>
-
-                <div className='card-top'>
+            <div className='project-card-content'>
+                <h3 className='project-card-title'>{title}</h3>
+                <div className='project-card-top'>
                     <span className='tech-tag'>{tech}</span>
                 </div>
-
-                <p className='card-description'>{description}</p>
-                
+                <p className='project-card-description'>{description}</p>
                 {link && (
-                    <div className='card-footer'>
+                    <div className='project-card-footer'>
                         <a href={link} target="_blank" rel="noopener noreferrer" className='view-project'>View Project</a>
                     </div>
                 )}
-                
             </div>
         </div>
     )
