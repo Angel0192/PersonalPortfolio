@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+
+.experience-container {
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: stretch;
+}
+
+@media (max-width: 768px) {
+  .experience-container {
+    padding: 40px 5%;
+  }
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+}

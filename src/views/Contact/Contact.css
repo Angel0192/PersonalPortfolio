@@ -1,0 +1,94 @@
+@import 'tailwindcss';
+
+.contact-section {
+  padding: 100px 10%;
+  width: 100%;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.contact-info {
+  flex: 1;
+  text-align: left;
+  max-width: 500px;
+}
+
+.contact-grid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.contact-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  text-decoration: none;
+  color: #ccd6f6;
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateX(10px);
+  border-color: #60a5fa;
+  background: rgba(96, 165, 250, 0.1);
+}
+
+@media (max-width: 968px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section{
+    padding: 60px 5% 120px 5%;
+  }
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-grid {
+    width: 100%;
+  }
+
+  .contact-card {
+    justify-content: center;
+  }
+}
