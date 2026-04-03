@@ -1,11 +1,69 @@
-# Personal Portfolio
+# Angel Lopez | Personal Portfolio
 
-Welcome to my portfolio project! After putting it off for so long, I have finally decided to sit myself down during spring break and check it off of my list of projects to get done!
+A personal portfolio website built to showcase my projects, experience, and skills as a Full-Stack Developer.
 
-I have seen a lot of different ways that people have gotten their personal porfolios done and I wanted to put something together that stood out and most importantly, felt like me. 
+🌐 **Live Demo:** [angellopezportfolio.netlify.app](https://angellopezportfolio.netlify.app/)
 
+---
 
-## Up Next:
+## Tech Stack
 
-* I know that the website is NOT mobile friendly at the moment, but I will be working on that in the background!
+- **React** — Component-based UI
+- **TypeScript** — Type-safe JavaScript
+- **Vite** — Fast build tooling and dev server
+- **Tailwind CSS** — Utility-first styling
+- **Lucide React** — Icon library
 
+---
+
+## Features
+
+- Glassmorphism design aesthetic
+- Fully responsive — desktop and mobile
+- Apple-style bottom navigation bar on mobile
+- Sections: About, Experience, Technical Arsenal, Projects, Contact
+
+---
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+
+## Project Structure
+
+```
+/src
+  /components
+    /Navbar        ← Desktop glass navbar
+    /ExperienceCard
+    /ProjectCard
+    /GlassCard
+  /views
+    /Hero
+    /Experience
+    /Skills
+    /Projects
+    /Contact
+  /assets
+  data.js          ← Site content lives here
+  App.tsx
+```
+
+---
+
+## Contact
+
+- **LinkedIn:** [angellopez-compsci](https://www.linkedin.com/in/angellopez-compsci/)
+- **GitHub:** [Angel0192](https://github.com/Angel0192)
+- **Email:** angellope904@gmail.com
