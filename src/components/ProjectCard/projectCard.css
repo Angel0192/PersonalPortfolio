@@ -40,6 +40,10 @@
     line-height: 1.6;
 }
 
+.project-card-footer{
+    padding: 20px;
+}
+
 .view-project {
     display: inline-block;
     padding: 10px 20px;
