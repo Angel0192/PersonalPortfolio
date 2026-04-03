@@ -21,3 +21,12 @@
   gap: 30px;
   align-items: stretch;
 }
+
+@media (max-width: 768px) {
+  .experience-container {
+    padding: 40px 5%;
+  }
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+}

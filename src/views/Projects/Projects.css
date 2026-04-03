@@ -21,3 +21,11 @@
   color: white;
 }
 
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 40px 5%;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

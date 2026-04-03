@@ -16,3 +16,9 @@ main {
 section {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  main {
+    padding-bottom: 100px;
+  }
+}

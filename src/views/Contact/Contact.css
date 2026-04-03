@@ -65,3 +65,26 @@
     text-align: center;
   }
 }
+
+@media (max-width: 768px) {
+  .contact-section{
+    padding: 60px 5% 120px 5%;
+  }
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-grid {
+    width: 100%;
+  }
+
+  .contact-card {
+    justify-content: center;
+  }
+}
