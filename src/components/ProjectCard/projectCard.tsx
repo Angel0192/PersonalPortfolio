@@ -17,6 +17,7 @@ const ProjectCard = ({ title, tech, description, link }: ProjectCardProps) => {
                     <span className='tech-tag'>{tech}</span>
                 </div>
                 <p className='project-card-description'>{description}</p>
+                <br />
                 {link && (
                     <div className='project-card-footer'>
                         <a href={link} target="_blank" rel="noopener noreferrer" className='view-project'>View Project</a>

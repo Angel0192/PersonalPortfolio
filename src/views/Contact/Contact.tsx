@@ -8,7 +8,8 @@ export default function Contact() {
       <div className="contact-container">
 
         <div className="contact-info">
-          <h3 >Let's build something together.</h3>
+          <h3>Let's build something together.</h3>
+          <br/>
           <p>
             I'm currently looking for new opportunities and my inbox is always open.
             Whether you have a question or just want to say hi, I'll try my best to get back to you!

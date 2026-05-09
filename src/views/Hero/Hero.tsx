@@ -1,4 +1,5 @@
 import linkedIn from '../../assets/linkedin.JPG'
+import resumePdf from '../../../src/assets/Angel_Lopez_Resume.pdf';
 import './Hero.css'
 
 
@@ -26,12 +27,12 @@ export default function Hero() {
             {/* Resume download and GitHub button*/}
             <div className='hero-btn-group'>
 
-              <a href="src/assets/Angel_Lopez_Resume.pdf" download>
-                <button onClick={() => console.log("Downloading Resume")}>Download Resume</button>
+              <a href={resumePdf} download>
+                Download Resume
               </a>
               
               <a href={"https://github.com/Angel0192"} target="_blank" rel="noopener noreferrer">
-                <button onClick={() => console.log("Opening GitHub")}>View Projects</button>
+                View Projects
               </a>
             </div>
           </div>

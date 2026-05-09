@@ -79,11 +79,17 @@
   object-fit: cover;
 }
 
-.hero-btn-group button{
+
+.hero-btn-group a{
+  text-align: center;
+  border-radius: 8px;
+  display: inline-block;
   background-color: blue;
   color: white;
-  display: inline-flex;
-  align-content: space-between;
+  height: 50px;
+  width: 185px;
+  align-content: center;
+  text-decoration: none;
 }
 
 .hero-btn-group {
@@ -91,14 +97,6 @@
   gap: 12px;
   margin-top: 20px;
 }
-
-.hero-btn{
-  background-color: blue;
-  color: white;
-  display: inline-flex;
-  align-content: space-between;
-}
-
 
 @media (max-width: 968px) {
   .hero-content {
