@@ -20,7 +20,7 @@ const ProjectCard = ({ title, tech, description, link }: ProjectCardProps) => {
                 <br />
                 {link && (
                     <div className='project-card-footer'>
-                        <a href={link} target="_blank" rel="noopener noreferrer" className='view-project'>View Project</a>
+                        <a href={link} target="_blank" rel="noopener noreferrer" className='view-project'>View</a>
                     </div>
                 )}
             </div>

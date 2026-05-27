@@ -1,4 +1,4 @@
-import { projectData } from './data'
+import { projectData } from '../../data/projectData'
 import ProjectCard from '../../components/ProjectCard/projectCard'
 import './Projects.css'
 
