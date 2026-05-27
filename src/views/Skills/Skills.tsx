@@ -1,4 +1,4 @@
-import { skillCategories } from './data'
+import { skillData } from '../../data/skillsData'
 import './Skills.css'
 
 export default function Skills() {
@@ -6,7 +6,7 @@ export default function Skills() {
         <section id="skills" className="skills-section">
             <h2 className="section-heading">Technical Arsenal</h2>
             <div className="skills-container">
-                {skillCategories.map((category, index) => (
+                {skillData.map((category, index) => (
                     <div key={index} className="skill-category-box">
                         <h4 className="category-title">{category.title}</h4>
                         <div className="pill-grid">

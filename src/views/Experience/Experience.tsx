@@ -1,13 +1,13 @@
 import './Experience.css'
 import ExperienceCard from '../../components/ExperienceCard/ExperienceCard'
-import { experience } from './data'
+import { experienceData } from '../../data/experienceData'
 
 export default function Experience() {
   return (
     <section id='experience' className='experience-container'>
       <h2 className='section-heading'>Experience</h2>
       <div className='experience-grid'>
-        {experience.map((exp) => (
+        {experienceData.map((exp) => (
           <ExperienceCard
             key={exp.id}
             title={exp.title}

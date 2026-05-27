@@ -1,4 +1,4 @@
-import linkedIn from '../../assets/linkedin.JPG'
+import linkedIn from '../../assets/pictures/linkedin.JPG'
 import resumePdf from '../../../src/assets/Angel_Lopez_Resume.pdf';
 import './Hero.css'
 

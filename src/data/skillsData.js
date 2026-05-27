@@ -1,4 +1,4 @@
-export const skillCategories = [
+export const skillData = [
         {
             title: "Programming Languages",
             skills: ["C#", "Java", "Python", "Swift", "C++", "SQL", "Dart", "HTML/CSS"]
