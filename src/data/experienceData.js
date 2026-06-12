@@ -47,12 +47,5 @@ export const experienceData = [
         description: "Where technology meets purpose. I volunteer in the tech booth at New Beginnings Lakeside Church — proof that the best projects aren't always on a screen."
     },
 
-    {
-        id: 7,
-        title: "Bethany Christian Church",
-        timeline: "1 Month | Current",
-        role: "Middle School Ministry",
-        description: "Not all impact shows up on a resume. I volunteer with the middle school ministry at Bethany Christian Church, mentoring middle schoolers and investing in something bigger than any project I could build."
-    },
     
 ]
