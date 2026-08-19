@@ -13,6 +13,7 @@ export default function Projects() {
                         title={project.title}
                         tech={project.tech}
                         description={project.description}
+                        media={project.media}
                         link={project.link}
                     />
                 ))}

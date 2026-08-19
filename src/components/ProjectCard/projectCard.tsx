@@ -1,14 +1,13 @@
 
+import { useState } from 'react';
 import './projectCard.css';
+import {ProjectCardProps} from '../ProjectCard/types'
+import ProjectSheet from '@/views/ProjectSheet/projectSheet';
 
-type ProjectCardProps = {
-    title: string
-    tech: string
-    description: string
-    link: string
-}
 
-const ProjectCard = ({ title, tech, description, link }: ProjectCardProps) => {
+const ProjectCard = ({ title, tech, description, media, link}: ProjectCardProps) => {
+    const [sheetOpen, setSheetOpen] = useState(false)
+
     return (
         <div className='project-card'>
             <div className='project-card-content'>
@@ -18,10 +17,20 @@ const ProjectCard = ({ title, tech, description, link }: ProjectCardProps) => {
                 </div>
                 <p className='project-card-description'>{description}</p>
                 <br />
-                {link && (
-                    <div className='project-card-footer'>
-                        <a href={link} target="_blank" rel="noopener noreferrer" className='view-project'>View</a>
-                    </div>
+
+                <button className='view-project' onClick={() => setSheetOpen(true)}>
+                    View
+                </button>
+
+                {sheetOpen && (
+                    <ProjectSheet
+                        title={title}
+                        tech={tech}
+                        description={description}
+                        link={link}
+                        media={media}
+                        onClose={() => setSheetOpen(false)}
+                    />
                 )}
             </div>
         </div>

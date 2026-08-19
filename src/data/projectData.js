@@ -1,10 +1,12 @@
+
 export const projectData = [
     {
         id: 1,
         title: "Portfolio Website",
         tech: "React • Vite • Github",
         description: "My portfolio website that I will be making changes to ocassionally. Resume's can only hold so much, so why not make an entire archive of things that I've done?", 
-        link: "https://github.com/Angel0192/PersonalPortfolio"
+        link: "https://github.com/Angel0192/PersonalPortfolio",
+        media: []
     },
 
     {
@@ -13,6 +15,9 @@ export const projectData = [
         tech: "Razor Pages • Docker • C# ",
         description: "A project for CS458 at USI where we had to use CRUD operatons for a Property Management system.",
         link: "https://github.com/Angel0192/CS458_PropertyManager",
+        media: [
+            {type: 'video', src: '/media/PropManager/PropMan-Demo.mp4'}
+        ]
     },
 
     {
@@ -21,6 +26,10 @@ export const projectData = [
         tech: "C# • Stacks • C# Web Forms",
         description: "This project was for my final group project in USI's CS358. Where I was in charge of the Stack Data structure to create a flashcard website alongside C# Web forms. ",
         link: "https://github.com/Angel0192/CS358_Flashcard_Project_Stacks",
+        media: [
+            {type: 'image', src: '/media/FlashCards/FlashCard-Screenshot.png'},
+            {type: 'video', src: '/media/FlashCards/FlashCard-Demo.mp4'}
+        ]
     },
 
     {
@@ -28,23 +37,34 @@ export const projectData = [
         title: "Expense Tracking iOS App",
         tech: "Swift • iOS Development",
         description: "Built with a focus on User Experience (UX) and data visualization, this iOS app utilizes Swift to provide real-time spending analytics. I implemented custom logic for budget forecasting and used SwiftUI to create a fluid, responsive interface that turns raw financial data into actionable visual insights.",
-        
+        media: [
+            {type: 'video', src: '/media/Expense/Expense_Demo.mp4'}
+        ]
     },
 
     {
         id: 5,
         title: "Online Ordering System",
-        tech: "Flutter • Dart",
+        tech: "Swift • Google Firebase",
         description: "To help my parents business against other online ordering and delivery systems, I was curious as to how I could help them still put their business out there without needing to upcharge customers 30% for delivery fees and built a prototype of an online ordering system",
-        
+        media: [
+            {type: 'video', src: '/media/MazApp/Maz-Widget-Demo.mp4'},
+            {type: 'video', src: '/media/MazApp/MazApp-Teaser-Trailer.mp4'},
+            {type: 'video', src: '/media/MazApp/MazApp-Database-Test.mp4'}
+        ]
     },
 
     {
         id: 6,
         title: "Swerve Drive Control System",
         tech: "Java • Robotics Programming",
-        description: "I led my team’s high-stakes transition from traditional Tank Drive to a 4-module Holonomic Swerve system. This wasn't just a hardware swap—it required implementing complex trigonometric vector math in Java to synchronize independent steering and drive motors. I utilized PID controllers to eliminate mechanical latency, giving the robot 360° field-oriented maneuverability.",
-        link: "https://github.com/Angel0192/HiFi_2024_Code"
+        description: "I led my team’s high-stakes transition from traditional Tank Drive to a 4-module Holonomic Swerve system. This wasn't just a hardware swap—it required implementing complex trigonometric vector math in Java to synchronize independent steering and drive motors. I utilized PID controllers to eliminate mechanical latency, giving the robot 360° field-oriented maneuverability. (There is a lot of test videos)",
+        link: "https://github.com/Angel0192/HiFi_2024_Code",
+        media: [
+            {type: 'video', src: '/media/SwerveDrive/SwerveDrive-Concept.mp4'},
+            {type: 'video', src: '/media/SwerveDrive/SwerveDrive-FirstTest.mp4'},
+            {type: 'video', src: '/media/SwerveDrive/SwerveDrive-AutoTest.mp4'},
+        ]
     }
 
 ]
