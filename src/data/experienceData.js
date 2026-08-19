@@ -4,7 +4,7 @@ export const experienceData = [
         title: "ProgresiveHealth Internship",
         role: "Junior Application Developer ",
         timeline: "7 Months",
-        description: "During this Fall through Spring Semester Internship, I was able to learn and pick up React for app development. I was tasked with creating SQL SPROCS and understanding system archictectures",
+        description: "During this Fall through Spring Semester Internship, I was able to learn and pick up React for app/web development. I was tasked with creating SQL SPROCS and understanding system archictectures",
     },
 
     {
