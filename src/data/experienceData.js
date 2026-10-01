@@ -1,7 +1,7 @@
 export const experienceData = [
     {
         id: 1,
-        title: "ProgresiveHealth Internship",
+        title: "ProgressiveHealth Internship",
         role: "Junior Application Developer ",
         timeline: "7 Months",
         description: "During this Fall through Spring Semester Internship, I was able to learn and pick up React for app/web development. I was tasked with creating SQL SPROCS and understanding system archictectures",
@@ -35,14 +35,14 @@ export const experienceData = [
         id: 5,
         title: "Common Grounds Podcast",
         role: "Audio Engineering • Riverside",
-        timeline: "4 Month | Current",
+        timeline: "4 Months | Current",
         description: "Led technical production for a weekly podcast, handling audio engineering, editing, and post-production."
     },
 
     {
         id: 6,
         title: "New Beginnings Lakeside Church",
-        timeline: "2 Month | Current",
+        timeline: "2 Months | Current",
         role: "Audio/Visual • ProPresenter",
         description: "Where technology meets purpose. I volunteer in the tech booth at New Beginnings Lakeside Church — proof that the best projects aren't always on a screen."
     },
